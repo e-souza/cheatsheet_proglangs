@@ -5,7 +5,7 @@
 Declare:
 ```sh
 varia=1
-varia='text'
+varia="text $varia"
 ```
 
 Recover:
