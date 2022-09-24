@@ -30,6 +30,8 @@ test 0 -eq 0 && echo 'true' || echo 'false'
 
 ```sh
 if test -z '' then echo 'void' else echo 'content' fi
+```
+
 ```sh
 if test -z 'texto'; then echo 'void'; else echo 'content'; fi
 ```
