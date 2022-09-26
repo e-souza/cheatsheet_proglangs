@@ -14,7 +14,13 @@ echo $varia
 ```
 
 ## Operators
+
+###NOT - !
+Example:
 ```sh
+if ! test -z $1 then...
+#or
+if ! [ -z $1 ] then...
 ```
 
 ## Loops
@@ -35,6 +41,8 @@ if test -z '' then echo 'void' else echo 'content' fi
 ```sh
 if test -z 'texto'; then echo 'void'; else echo 'content'; fi
 ```
+
+
 WHILE:
 ```sh
 while true; do echo 'Hello World'; done
