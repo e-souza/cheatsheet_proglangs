@@ -6,6 +6,9 @@ Declare:
 ```sh
 varia=1
 varia="text $varia"
+
+boolean=true
+boolean=false
 ```
 
 Recover:
